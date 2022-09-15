@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653CAC32F0D49828A24344F8 /* Pods_HireDevs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B7FEDD86DAEE1C1EDCDD5A /* Pods_HireDevs.framework */; };
+		DA4AD1E2278B37A500880165 /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4AD1E1278B37A500880165 /* EmployeeListVC.swift */; };
+		DA4D027A27962D1F0072139A /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA4D027927962D1F0072139A /* IQKeyboardManagerSwift */; };
+		DA4D0DA92770B7F400A05156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D0DA82770B7F400A05156 /* AppDelegate.swift */; };
+		DA4D0DAB2770B7F400A05156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D0DAA2770B7F400A05156 /* SceneDelegate.swift */; };
+		DA4D0DAD2770B7F400A05156 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D0DAC2770B7F400A05156 /* LoginVC.swift */; };
+		DA4D0DB02770B7F400A05156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4D0DAE2770B7F400A05156 /* Main.storyboard */; };
+		DA4D0DB22770B7F600A05156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4D0DB12770B7F600A05156 /* Assets.xcassets */; };
+		DA4D0DB52770B7F600A05156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4D0DB32770B7F600A05156 /* LaunchScreen.storyboard */; };
+		DA4D0DC12770CB5400A05156 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D0DC02770CB5400A05156 /* Extensions.swift */; };
+		DA4D0DC82773679F00A05156 /* CandidateListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D0DC72773679F00A05156 /* CandidateListVC.swift */; };
+		DA4D0DCB2774D74900A05156 /* AddCandidateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D0DCA2774D74900A05156 /* AddCandidateVC.swift */; };
+		DA51D0E52796F3BC0041819D /* CustomDialogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA51D0E42796F3BC0041819D /* CustomDialogVC.swift */; };
+		DA51D0EC27974AC00041819D /* PopupDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA51D0EB27974AC00041819D /* PopupDelegate.swift */; };
+		DA5FA9182790DCAD00DAE5D3 /* EditCandidateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FA9172790DCAD00DAE5D3 /* EditCandidateVC.swift */; };
+		DA690BB9278F508A00AC2712 /* EditEmployeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA690BB8278F508A00AC2712 /* EditEmployeeVC.swift */; };
+		DA7F6FD62780FCF800080C3B /* AddEmployeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F6FD52780FCF800080C3B /* AddEmployeeVC.swift */; };
+		DA7F6FDF27824B6A00080C3B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DA7F6FDE27824B6A00080C3B /* Realm */; };
+		DA7F6FE127824B6A00080C3B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA7F6FE027824B6A00080C3B /* RealmSwift */; };
+		DA7F6FE427824BB400080C3B /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F6FE327824BB400080C3B /* RealmConfig.swift */; };
+		DA7F6FE7278262B300080C3B /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F6FE6278262B300080C3B /* Candidate.swift */; };
+		DA7F6FEA2782E39C00080C3B /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F6FE92782E39C00080C3B /* Employee.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AC35D32196903176FB5C88D /* Pods-HireDevs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HireDevs.debug.xcconfig"; path = "Target Support Files/Pods-HireDevs/Pods-HireDevs.debug.xcconfig"; sourceTree = "<group>"; };
+		A6B7FEDD86DAEE1C1EDCDD5A /* Pods_HireDevs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HireDevs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7970B36BF4C6DDF011A05E7 /* Pods-HireDevs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HireDevs.release.xcconfig"; path = "Target Support Files/Pods-HireDevs/Pods-HireDevs.release.xcconfig"; sourceTree = "<group>"; };
+		DA4AD1E1278B37A500880165 /* EmployeeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListVC.swift; sourceTree = "<group>"; };
+		DA4D0DA52770B7F400A05156 /* HireDevs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HireDevs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4D0DA82770B7F400A05156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA4D0DAA2770B7F400A05156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA4D0DAC2770B7F400A05156 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		DA4D0DAF2770B7F400A05156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA4D0DB12770B7F600A05156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA4D0DB42770B7F600A05156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA4D0DB62770B7F600A05156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4D0DC02770CB5400A05156 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DA4D0DC72773679F00A05156 /* CandidateListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateListVC.swift; sourceTree = "<group>"; };
+		DA4D0DCA2774D74900A05156 /* AddCandidateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCandidateVC.swift; sourceTree = "<group>"; };
+		DA51D0E42796F3BC0041819D /* CustomDialogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogVC.swift; sourceTree = "<group>"; };
+		DA51D0EB27974AC00041819D /* PopupDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDelegate.swift; sourceTree = "<group>"; };
+		DA5FA9172790DCAD00DAE5D3 /* EditCandidateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCandidateVC.swift; sourceTree = "<group>"; };
+		DA690BB8278F508A00AC2712 /* EditEmployeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmployeeVC.swift; sourceTree = "<group>"; };
+		DA7F6FD52780FCF800080C3B /* AddEmployeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeVC.swift; sourceTree = "<group>"; };
+		DA7F6FE327824BB400080C3B /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+		DA7F6FE6278262B300080C3B /* Candidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
+		DA7F6FE92782E39C00080C3B /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA4D0DA22770B7F400A05156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7F6FE127824B6A00080C3B /* RealmSwift in Frameworks */,
+				DA4D027A27962D1F0072139A /* IQKeyboardManagerSwift in Frameworks */,
+				DA7F6FDF27824B6A00080C3B /* Realm in Frameworks */,
+				653CAC32F0D49828A24344F8 /* Pods_HireDevs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B09F5AEA88FACD0D159BB79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AC35D32196903176FB5C88D /* Pods-HireDevs.debug.xcconfig */,
+				B7970B36BF4C6DDF011A05E7 /* Pods-HireDevs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1448419D4C4256CE1E417299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6B7FEDD86DAEE1C1EDCDD5A /* Pods_HireDevs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA4AD1E4278B390A00880165 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D0DAC2770B7F400A05156 /* LoginVC.swift */,
+				DA4D0DC72773679F00A05156 /* CandidateListVC.swift */,
+				DA4D0DCA2774D74900A05156 /* AddCandidateVC.swift */,
+				DA5FA9172790DCAD00DAE5D3 /* EditCandidateVC.swift */,
+				DA4AD1E1278B37A500880165 /* EmployeeListVC.swift */,
+				DA7F6FD52780FCF800080C3B /* AddEmployeeVC.swift */,
+				DA690BB8278F508A00AC2712 /* EditEmployeeVC.swift */,
+				DA51D0E42796F3BC0041819D /* CustomDialogVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DA4D0D9C2770B7F400A05156 = {
+			isa = PBXGroup;
+			children = (
+				DA4D0DA72770B7F400A05156 /* HireDevs */,
+				DA4D0DA62770B7F400A05156 /* Products */,
+				0B09F5AEA88FACD0D159BB79 /* Pods */,
+				1448419D4C4256CE1E417299 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA4D0DA62770B7F400A05156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D0DA52770B7F400A05156 /* HireDevs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA4D0DA72770B7F400A05156 /* HireDevs */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D0DA82770B7F400A05156 /* AppDelegate.swift */,
+				DA4D0DAA2770B7F400A05156 /* SceneDelegate.swift */,
+				DA4AD1E4278B390A00880165 /* ViewControllers */,
+				DA7F6FE6278262B300080C3B /* Candidate.swift */,
+				DA7F6FE92782E39C00080C3B /* Employee.swift */,
+				DA7F6FE327824BB400080C3B /* RealmConfig.swift */,
+				DA4D0DC02770CB5400A05156 /* Extensions.swift */,
+				DA4D0DAE2770B7F400A05156 /* Main.storyboard */,
+				DA51D0EB27974AC00041819D /* PopupDelegate.swift */,
+				DA4D0DB12770B7F600A05156 /* Assets.xcassets */,
+				DA4D0DB32770B7F600A05156 /* LaunchScreen.storyboard */,
+				DA4D0DB62770B7F600A05156 /* Info.plist */,
+			);
+			path = HireDevs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA4D0DA42770B7F400A05156 /* HireDevs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4D0DB92770B7F600A05156 /* Build configuration list for PBXNativeTarget "HireDevs" */;
+			buildPhases = (
+				100808AFC529AFB6E11B9EBB /* [CP] Check Pods Manifest.lock */,
+				DA4D0DA12770B7F400A05156 /* Sources */,
+				DA4D0DA22770B7F400A05156 /* Frameworks */,
+				DA4D0DA32770B7F400A05156 /* Resources */,
+				81863828C142F683FECAB68C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HireDevs;
+			packageProductDependencies = (
+				DA7F6FDE27824B6A00080C3B /* Realm */,
+				DA7F6FE027824B6A00080C3B /* RealmSwift */,
+				DA4D027927962D1F0072139A /* IQKeyboardManagerSwift */,
+			);
+			productName = HireDevs;
+			productReference = DA4D0DA52770B7F400A05156 /* HireDevs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA4D0D9D2770B7F400A05156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DA4D0DA42770B7F400A05156 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = DA4D0DA02770B7F400A05156 /* Build configuration list for PBXProject "HireDevs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA4D0D9C2770B7F400A05156;
+			packageReferences = (
+				DA7F6FDD27824B6A00080C3B /* XCRemoteSwiftPackageReference "realm-swift" */,
+				DA4D027827962D1F0072139A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = DA4D0DA62770B7F400A05156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA4D0DA42770B7F400A05156 /* HireDevs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA4D0DA32770B7F400A05156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4D0DB52770B7F600A05156 /* LaunchScreen.storyboard in Resources */,
+				DA4D0DB22770B7F600A05156 /* Assets.xcassets in Resources */,
+				DA4D0DB02770B7F400A05156 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		100808AFC529AFB6E11B9EBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HireDevs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81863828C142F683FECAB68C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HireDevs/Pods-HireDevs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HireDevs/Pods-HireDevs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HireDevs/Pods-HireDevs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA4D0DA12770B7F400A05156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4D0DCB2774D74900A05156 /* AddCandidateVC.swift in Sources */,
+				DA51D0E52796F3BC0041819D /* CustomDialogVC.swift in Sources */,
+				DA5FA9182790DCAD00DAE5D3 /* EditCandidateVC.swift in Sources */,
+				DA7F6FD62780FCF800080C3B /* AddEmployeeVC.swift in Sources */,
+				DA690BB9278F508A00AC2712 /* EditEmployeeVC.swift in Sources */,
+				DA4D0DC82773679F00A05156 /* CandidateListVC.swift in Sources */,
+				DA7F6FEA2782E39C00080C3B /* Employee.swift in Sources */,
+				DA7F6FE427824BB400080C3B /* RealmConfig.swift in Sources */,
+				DA51D0EC27974AC00041819D /* PopupDelegate.swift in Sources */,
+				DA4AD1E2278B37A500880165 /* EmployeeListVC.swift in Sources */,
+				DA4D0DAD2770B7F400A05156 /* LoginVC.swift in Sources */,
+				DA4D0DA92770B7F400A05156 /* AppDelegate.swift in Sources */,
+				DA7F6FE7278262B300080C3B /* Candidate.swift in Sources */,
+				DA4D0DAB2770B7F400A05156 /* SceneDelegate.swift in Sources */,
+				DA4D0DC12770CB5400A05156 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA4D0DAE2770B7F400A05156 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4D0DAF2770B7F400A05156 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA4D0DB32770B7F600A05156 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4D0DB42770B7F600A05156 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA4D0DB72770B7F600A05156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA4D0DB82770B7F600A05156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA4D0DBA2770B7F600A05156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC35D32196903176FB5C88D /* Pods-HireDevs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HireDevs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edynamix.HireDevs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA4D0DBB2770B7F600A05156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7970B36BF4C6DDF011A05E7 /* Pods-HireDevs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HireDevs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edynamix.HireDevs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA4D0DA02770B7F400A05156 /* Build configuration list for PBXProject "HireDevs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4D0DB72770B7F600A05156 /* Debug */,
+				DA4D0DB82770B7F600A05156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4D0DB92770B7F600A05156 /* Build configuration list for PBXNativeTarget "HireDevs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4D0DBA2770B7F600A05156 /* Debug */,
+				DA4D0DBB2770B7F600A05156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA4D027827962D1F0072139A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.9;
+			};
+		};
+		DA7F6FDD27824B6A00080C3B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA4D027927962D1F0072139A /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA4D027827962D1F0072139A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		DA7F6FDE27824B6A00080C3B /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA7F6FDD27824B6A00080C3B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		DA7F6FE027824B6A00080C3B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA7F6FDD27824B6A00080C3B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DA4D0D9D2770B7F400A05156 /* Project object */;
+}

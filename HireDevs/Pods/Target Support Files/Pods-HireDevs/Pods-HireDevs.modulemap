@@ -1,0 +1,6 @@
+framework module Pods_HireDevs {
+  umbrella header "Pods-HireDevs-umbrella.h"
+
+  export *
+  module * { export * }
+}
